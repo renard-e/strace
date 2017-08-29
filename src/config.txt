@@ -1,0 +1,331 @@
+time struct1 201 int0
+mmap void1 int0 int0 int0 int0 int0 9 void1
+sigreturn void0 15 int0
+modify_ldt int0 void1 int0 154 int0
+_sysctl struct1 156 int0
+arch_prctl int0 long1 158 int0
+umount2 char1 int0 166 int0
+iopl int0 172 int0
+create_module char1 in0 174 int0
+query_module char1 int0 void1 int0 int1 178 int0
+nfsservctl int0 strcut1 struct1 180 int0
+getpmsg int0 struct1 struct1 int1 int1 181 int0
+putpmsg int0 struct1 struct1 int0 int0 182 int0
+afs_syscall struct1 183 int0
+tuxcall struct1 184 int0
+security struct1 185 int0
+set_thread_area struct1 205 int0
+get_thread_area struct1 211 int0
+epoll_ctl_old int0 214 int0
+epoll_wait_old int0 215 int0
+vserver struct1 236 int0
+get_kernel_syms struct1 177 int0
+gettimeofday struct1 struct1 96 int0
+settimeofday struct1 struct1 164 int0
+adjtimex struct1 159 int0
+times struct1 100 int0
+gettid void0 186 int0
+nanosleep struct1 struct1 35 int0
+alarm int0 37 int0
+getpid void0 39 int0
+getppid void0 110 int0
+getuid void0 102 int0
+geteuid void0 107 int0
+getgid void0 104 int0
+getegid void0 108 int0
+getresuid struct1 struct1 struct1 118 int0
+getresgid struct1 struct1 struct1 120 int0
+getpgid int0 121 int0
+getpgrp void0 111 int0
+getsid int0 124 int0
+getgroups int0 struct1 115 int0
+setregid struct0 struct0 114 int0
+setgid struct0 106 int0
+setreuid struct0 struct0 113 int0
+setuid struct0 105 int0
+setresuid struct0 struct0 struct0 117 int0
+setresgid struct0 struct0 struct0 119 int0
+setfsuid struct0 122 int0
+setfsgid struct0 123 int0
+setpgid int0 int0 109 int0
+setsid void0 112 int0
+setgroups int0 struct1 116 int0
+acct char1 163 int0
+capget struct0 struct0 125 int0
+capset struct0 struct0 126 int0
+personality int0 135 int0
+sigaltstack struct1 struct1 131 int0
+getitimer int0 struct1 36 int0
+setitimer int0 struct1 struct1 38 int0
+timer_create struct0 struct1 struct1 222 int0
+timer_gettime struct0 struct1 224 int0
+timer_getoverrun struct0 225 int0
+timer_settime struct0 int0 struct1 struct1 223 int0
+timer_delete struct0 226 int0
+clock_settime struct0 struct1 227 int0
+clock_gettime struct0 struct1 228 int0
+clock_adjtime struct0 struct1 305 int0
+clock_getres struct0 struct1 229 int0
+clock_nanosleep struct0 int0 struct1 struct1 230 int0
+sched_setscheduler int0 int0 struct1 144 int0
+sched_setparam int0 struct1 142 int0
+sched_setattr int0 struct1 int0 314 int0
+sched_getscheduler int0 145 int0
+sched_getparam int0 struct1 143 int0
+sched_getattr int0 struct1 int0 int0 315 int0
+sched_setaffinity int0 int0 long1 203 int0
+sched_getaffinity int0 int0 long1 204 int0
+sched_yield void0 24 int0
+sched_get_priority_max int0 146 int0
+sched_get_priority_min int0 147 int0
+sched_rr_get_interval int0 int1 148 int0
+setpriority int0 int0 int0 141 int0
+getpriority int0 int0 140 int0
+shutdown int0 int0 48 int0
+reboot int0 int0 int0 void1 169 int0
+restart_syscall void0 219 int0
+kexec_load long0 long0 struct1 long0 246 int0
+kexec_file_load int0 int0 long0 char1 long0 320 int0
+exit int0 60 void0
+exit_group int0 231 int0
+wait4 int0 int1 int0 struct1 61 int0
+waitid int0 int0 struct1 int0 struct1 247 int0
+set_tid_address int1 218 int0
+futex int1 int0 int0 struct1 int1 int 202 int0
+init_module void1 long0 char1 175 int0
+delete_module char1 int0 176 int0
+rt_sigsuspend struct1 int0 130 int0
+rt_sigaction int0 struct1 struct1 int0 13 int0
+rt_sigprocmask int0 struct1 struct1 int0 14 int0
+rt_sigpending struct1 int0 127 int0
+rt_sigtimedwait struct1 struct1 struct1 int0 128 int0
+rt_tgsigqueueinfo int0 int0 int0 struct1 297 int0
+kill int0 int0 62 int0
+tgkill int0 int0 int0 234 int0
+tkill int0 int0 200 int0
+rt_sigqueueinfo int0 int0 struct1 129 int0
+pause void0 34 int0
+sync void0 162 int0
+fsync int0 74 int0
+fdatasync int0 75 int0
+mount char1 char1 char1 long0 void1 165 int0
+truncate char1 long0 76 int0
+ftruncate int0 long0 77 int0
+stat char1 struct1 4 int0
+statfs char1 struct1 137 int0
+fstatfs int0 struct1 138 int0
+lstat char1 struct1 6 int0
+fstat int0 struct1 5 int0
+ustat struct0 struct1 136 int0
+setxattr char1 char1 void1 int0 int0 188 int0
+lsetxattr char1 char1 void1 int0 int0 189 int0
+fsetxattr int0 char1 void1 int0 int0 190 int0
+getxattr char1 char1 void1 int0 191 int0
+lgetxattr char1 char1 void1 int0 192 int0
+fgetxattr int0 char1 void1 int0 193 int0
+listxattr char1 char1 int0 194 int0
+llistxattr char1 char1 int0 195 int0
+flistxattr int0 char1 int0 196 int0
+removexattr char1 char1 197 int0
+lremovexattr char1 char1 198 int0
+fremovexattr int0 char1 199 int0
+brk void1 12 int0
+mprotect void1 int0 long0 10 int0
+mremap long0 long0 long0 long0 long0 25 int0
+remap_file_pages long0 long0 long0 long0 long0 216 int0
+msync long0 int0 int0 26 int0
+fadvise64 int0 struct0 int0 int0 221 int0
+munmap long0 int0 11 int0
+mlock long0 int0 149 int0
+munlock long0 int0 150 int0
+mlockall int0 151 int0
+munlockall void0 152 int0
+madvise long0 int0 int0 28 int0
+mincore long0 int0 char1 27 int0
+pivot_root char1 char1 155 int0
+chroot char1 161 int0
+mknod char1 struct0 struct0 133 int0
+link char1 char1 86 int0
+symlink char1 char1 88 int0
+unlink char1 87 int0
+rename char1 char1 82 int0
+chmod char1 struct0 90 int0
+fchmod int0 struct0 91 int0
+fcntl int0 int0 long0 72 int0
+pipe int1 22 int0
+pipe2 int1 int0 293 int0
+dup int0 32 int0
+dup2 int0 int0 33 int0
+dup3 int0 int0 int0 292 int0
+ioperm long0 long0 int0 173 int0
+ioctl int0 int0 long0 16 int0
+flock int0 int0 73 int0
+io_setup struct0 struct1 206 int0
+io_destroy struct0 207 int0
+io_getevents struct0 long0 long0 struct1 struct1 208 int0
+io_submit struct0 long0 struct2 209 int0
+io_cancel struct0 struct1 struct1 210 int0
+sendfile int0 int0 struct1 int0 40 int0
+readlink char1 char1 int0 89 int0
+creat char1 struct0 85 int0
+open char1 int0 int0 2 int0
+close int0 3 int0
+access char1 int0 21 int0
+vhangup void0 153 int0
+chown char1 struct0 struct0 92 int0
+lchown char1 struct0 struct0 94 int0
+fchown int0 struct0 struct0 93 int0
+utime char1 struct1 132 int0
+utimes char1 struct1 235 int0
+lseek int0 struct0 int0 8 int0
+read int0 char1 int0 0 int0
+readahead int0 struct0 int0 187 int0
+readv long0 struct1 long0 19 int0
+write int0 char1 int0 1 int0
+writev long0 struct1 long0 20 int0
+pread64 int0 char1 int0 struct0 17 int0
+pwrite64 int0 char1 int0 struct0 18 int0
+preadv long0 struct1 long0 long0 long0 295 int0
+preadv2 long0 struct1 long0 long0 long0 int0 327 int0
+pwritev long0 struct1 long0 long0 long0 296 int0
+pwritev2 long0 struct1 long0 long0 long0 int0 328 int0
+getcwd char1 long0 79 int0
+mkdir char1 struct0 83 int0
+chdir char1 80 int0
+fchdir int0 81 int0
+rmdir char1 84 int0
+lookup_dcookie struct0 char1 int0 212 int0
+quotactl int0 char1 struct0 void1 179 int0
+getdents int0 struct1 int0 78 int0
+getdents64 int0 struct1 int0 217 int0
+setsockopt int0 int0 int0 char1 int0 54 int0
+getsockopt int0 int0 int0 char1 int1 55 int0
+bind int0 struct1 int0 49 int0
+connect int0 struct1 int0 42 int0
+accept int0 struct1 int1 43 int0
+accept4 int0 struct1 int1 int0 288 int0
+getsockname int0 struct1 int1 51 int0
+getpeername int0 struct1 int1 52 int0
+sendto int0 void1 int0 struct0 struct1 int0 44 int0
+sendmsg int0 struct1 struct0 46 int0
+sendmmsg int0 struct1 int0 struct0 307 int0
+recvfrom int0 void1 int0 struct0 struct1 int1 45 int0
+recvmsg int0 struct1 struct0 47 int0
+recvmmsg int0 struct1 int0 struct0 struct1 299 int0
+socket int0 int0 int0 41 int0
+socketpair int0 int0 int0 int1 53 int0
+listen int0 int0 50 int0
+poll struct1 int0 int0 7 int0
+select int0 struct1 struct1 struct1 struct1 23 int0
+epoll_create int0 213 int0
+epoll_create1 int0 291 int0
+epoll_ctl int0 int0 int0 struct1 233 int0
+epoll_wait int0 struct1 int0 int0 232 int0
+epoll_pwait int0 struct1 int0 int0 struct1 int0 281 int0
+sethostname char1 int0 170 int0
+setdomainname char1 int0 171 int0
+uname struct1 63 int0
+getrlimit int0 struct1 97 int0
+setrlimit int0 struct1 160 int0
+prlimit64 int0 int0 struct1 struct1 302 int0
+getrusage int0 struct1 98 int0
+umask int0 95 int0
+msgget struct0 int0 68 int0
+msgsnd int0 struct1 int0 int0 69 int0
+msgrcv int0 struct1 int0 long0 int0 70 int0
+msgctl int0 int0 struct1 71 int0
+semget struct0 int0 int0 64 int0
+semop int0 struct1 struct0 65 int0
+semctl int0 int0 int0 long0 66 int0
+semtimedop int0 struct1 struct0 struct1 220 int0
+shmat int0 char1 int0 30 int0
+shmget struct0 int0 int0 29 int0
+shmdt char1 67 int0
+shmctl int0 int0 struct1 31 int0
+mq_open char1 int0 struct0 struct1 240 int0
+mq_unlink char1 241 int0
+mq_timedsend struct0 char1 int0 int0 struct1 242 int0
+mq_timedreceive struct0 char1 int0 int1 struct1 243 int0
+mq_notify struct0 struct1 244 int0
+mq_getsetattr struct0 struct1 struct1 245 int0
+prctl int0 long0 long0 long0 long0 157 int0
+swapon char1 int0 167 int0
+swapoff char1 168 int0
+sysinfo struct1 99 int0
+sysfs int0 long0 long0 139 int0
+syslog int0 char1 int0 103 int0
+uselib char1 134 int0
+ptrace long0 long0 long0 long0 101 int0
+add_key char1 char1 void1 int0 struct0 248 int0
+request_key char1 char1 char1 struct0 249 int0
+keyctl int0 long0 long0 long0 long0 250 int0
+ioprio_set int0 int0 int0 251 int0
+ioprio_get int0 int0 252 int0
+set_mempolicy int0 long1 long0 238 int0
+migrate_pages int0 long0 long1 long1 256 int0
+move_pages int0 long0 void2 int1 int1 int0 279 int0
+mbind long0 long0 long0 long1 long0 struct0 237 int0
+get_mempolicy int1 long1 long0 long0 long0 239 int0
+inotify_init void0 253 int0
+inotify_init1 int0 294 int0
+inotify_add_watch int0 char1 struct0 254 int0
+inotify_rm_watch int0 struct0 255 int0
+mknodat int0 char1 struct0 struct0 259 int0
+mkdirat int0 char1 struct0 258 int0
+unlinkat int0 char1 int0 263 int0
+symlinkat char1 int0 char1 266 int0
+linkat int0 char1 int0 char1 int0 265 int0
+renameat int0 char1 int0 char1 264 int0
+renameat2 int0 char1 int0 char1 int0 316 int0
+futimesat int0 char1 struct1 261 int0
+faccessat int0 char1 int0 269 int0
+fchmodat int0 char1 struct0 268 int0
+fchownat int0 char1 struct0 struct0 int0 260 int0
+openat int0 char1 int0 struct0 257 int0
+newfstatat int0 char1 struct1 int0 262 int0
+readlinkat int0 char1 char1 int0 267 int0
+utimensat int0 char1 struct1 int0 280 int0
+unshare long0 272 int0
+splice int0 struct1 int0 struct1 int0 int0 275 int0
+vmsplice int0 struct1 long0 int0 278 int0
+tee int0 int0 int0 int0 276 int0
+sync_file_range int0 struct0 struct0 int0 277 int0
+get_robust_list int0 struct2 int1 274 int0
+set_robust_list struct1 int0 273 int0
+getcpu struct1 struct1 struct1 309 int0
+signalfd int0 struct1 int0 282 int0
+signalfd4 int0 struct1 int0 int0 289 int0
+timerfd_create int0 int0 283 int0
+timerfd_settime int0 int0 struct1 struct1 286 int0
+timerfd_gettime int0 struct1 287 int0
+eventfd int0 284 int0
+eventfd2 int0 int0 290 int0
+memfd_create char1 int0 319 int0
+userfaultfd int0 323 int0
+fallocate int0 int0 struct0 struct0 285 int0
+pselect6 int0 struct1 struct1 struct1 struct1 void1 270 int0
+ppoll struct1 int0 struct1 struct1 int0 271 int0
+fanotify_init int0 int0 300 int0
+fanotify_mark int0 int0 struct0 int0 char1 301 int0
+syncfs int0 306 int0
+fork void0 57 int0
+vfork void0 58 int0
+clone long0 long0 int1 long0 int1 56 int0
+clone long0 long0 int0 int1 int1 long0 56 int0
+clone long0 long0 int1 int1 long0 56 int0
+execve char1 char2 char2 59 int0
+perf_event_open struct1 int0 int0 int0 long0 298 int0
+name_to_handle_at int0 char1 struct1 int1 int0 303 int0
+open_by_handle_at int0 struct1 int0 304 int0
+setns int0 int0 308 int0
+process_vm_readv int0 struct1 long0 struct1 long0 long0 310 int0
+process_vm_writev int0 struct1 long0 struct1 long0 long0 311 int0
+kcmp int0 int0 int0 long0 long0 312 int0
+finit_module int0 char1 int0 313 int0
+seccomp int0 int0 char1 317 int0
+getrandom char1 int0 int0 318 int0
+bpf int0 struct1 int0 321 int0
+execveat int0 char1 char2 char2 int0 322 int0
+membarrier int0 int0 324 int0
+copy_file_range int0 struct1 int0 struct1 int0 int0 326 int0
+mlock2 long0 int0 int0 325 int0
